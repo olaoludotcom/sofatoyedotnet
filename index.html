@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Income System Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Energetic & Playful -->
+    <!-- Application Structure Plan: The infographic follows a persuasive narrative structure. It begins with a high-impact Hero section stating the core problem. It then visually contrasts the 'Old Way' vs. the 'New Way' to make the solution's value immediately obvious. The next section breaks down the system's benefits into digestible visual cards. A simple 'How It Works' flowchart demystifies the process, reducing user friction. Finally, a clear Call to Action section drives conversion. This top-to-bottom flow is designed to build understanding and desire before presenting the action step. -->
+    <!-- Visualization & Content Choices: Data Point: Time vs. Money concept -> Goal: Compare -> Chosen Visualization: Side-by-side HTML/CSS cards with Unicode icons. Justification: This is a conceptual comparison, not quantitative data. The visual separation and simple icons (⏰ vs ⚙️) make the abstract concept tangible and easy to grasp instantly. NO SVG/Mermaid. | Data Point: System benefits (sustainable, freeing, focus) -> Goal: Inform/Organize -> Chosen Visualization: A grid of styled HTML cards with large Unicode icons. Justification: Icon-driven cards are more engaging than a bulleted list for an infographic, breaking down key features into scannable, visually appealing chunks. NO SVG/Mermaid. | Data Point: Process to get started -> Goal: Organize -> Chosen Visualization: A vertical flowchart built with structured HTML and Tailwind CSS borders/spacing. Justification: A flowchart is the ideal way to show a process. Building it with HTML/CSS avoids prohibited libraries and keeps the design consistent with the page's aesthetic. NO SVG/Mermaid. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .bg-pattern { background-color: #ffffff; background-image: radial-gradient(#d1d5db 1px, transparent 1px); background-size: 16px 16px; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <div class="max-w-4xl mx-auto p-4 md:p-8">
+
+        <header class="text-center py-16">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900">Tired of Trading <span class="text-amber-500">Time</span> Directly For <span class="text-green-500">Money?</span></h1>
+            <p class="mt-6 max-w-2xl mx-auto text-lg text-slate-600">Discover a smarter, more efficient path to financial freedom with Olakunle Solomon's Automated Income System.</p>
+        </header>
+
+        <main class="space-y-16 md:space-y-24">
+
+            <section class="bg-white rounded-2xl shadow-lg p-8 md:p-12 border border-slate-200">
+                <h2 class="text-2xl md:text-3xl font-bold text-center text-slate-900">The Shift in How You Earn</h2>
+                <p class="mt-4 text-center text-slate-600 max-w-2xl mx-auto">The traditional model limits your potential. An automated system unlocks it.</p>
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+                    
+                    <div class="bg-slate-100 rounded-xl p-6 text-center border-2 border-dashed border-slate-300">
+                        <h3 class="font-bold text-xl text-slate-700">The Old Way: Linear Income</h3>
+                        <p class="mt-2 text-slate-500">Your income is directly tied to the hours you work. There's a hard cap on your earning potential.</p>
+                        <div class="mt-6 text-5xl flex justify-center items-center space-x-4">
+                            <span>⏰</span>
+                            <span class="text-slate-400 font-light text-3xl">➡️</span>
+                            <span>💰</span>
+                        </div>
+                        <p class="mt-4 font-semibold text-red-600 bg-red-100 rounded-full py-1 px-4 inline-block">Time = Capped Money</p>
+                    </div>
+                    
+                    <div class="bg-emerald-50 rounded-xl p-6 text-center border-2 border-emerald-500 shadow-md">
+                        <h3 class="font-bold text-xl text-emerald-900">The New Way: Automated Income</h3>
+                        <p class="mt-2 text-emerald-800">You build a system that works for you 24/7. Your income is decoupled from your time.</p>
+                        <div class="mt-6 text-5xl flex justify-center items-center space-x-4">
+                            <span>⚙️</span>
+                            <span class="text-slate-400 font-light text-3xl">➡️</span>
+                            <span>💰</span>
+                        </div>
+                        <p class="mt-4 font-semibold text-green-700 bg-green-200 rounded-full py-1 px-4 inline-block">System = Scalable Money</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl md:text-3xl font-bold text-center text-slate-900">This Isn't Just a Program—It's Your Opportunity</h2>
+                <p class="mt-4 text-center text-slate-600 max-w-2xl mx-auto">Build a revenue stream that works for you, freeing up your time and energy to focus on what you truly love.</p>
+                <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white rounded-2xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300 border border-slate-200">
+                        <span class="text-5xl">📈</span>
+                        <h3 class="mt-4 font-bold text-lg text-slate-900">Build Sustainable Revenue</h3>
+                        <p class="mt-1 text-slate-600 text-sm">Create a long-term asset that generates income consistently.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300 border border-slate-200">
+                        <span class="text-5xl">⏳</span>
+                        <h3 class="mt-4 font-bold text-lg text-slate-900">Reclaim Your Time & Energy</h3>
+                        <p class="mt-1 text-slate-600 text-sm">Stop the daily grind and get your most valuable resources back.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300 border border-slate-200 sm:col-span-2 lg:col-span-1">
+                        <span class="text-5xl">❤️</span>
+                        <h3 class="mt-4 font-bold text-lg text-slate-900">Focus On What You Love</h3>
+                        <p class="mt-1 text-slate-600 text-sm">Pursue your passions, spend time with family, or travel the world.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-pattern rounded-2xl p-8 md:p-12 border border-slate-200">
+                <h2 class="text-2xl md:text-3xl font-bold text-center text-slate-900">How It Works: Your Simple Path Forward</h2>
+                <div class="mt-10 max-w-sm mx-auto">
+                    <div class="relative">
+                        <div class="absolute left-1/2 -ml-px h-full w-0.5 bg-slate-300" aria-hidden="true"></div>
+                        <div class="relative flex flex-col items-center space-y-8">
+
+                            <div class="flex flex-col items-center text-center">
+                                <div class="bg-amber-500 text-white h-12 w-12 rounded-full flex items-center justify-center font-bold text-xl z-10">1</div>
+                                <div class="mt-4 bg-white p-4 rounded-lg shadow-md border border-slate-200 w-64">
+                                    <h3 class="font-semibold text-slate-800">Send the Email</h3>
+                                    <p class="text-sm text-slate-500">Take the first easy step to show your interest.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col items-center text-center">
+                                <div class="bg-amber-500 text-white h-12 w-12 rounded-full flex items-center justify-center font-bold text-xl z-10">2</div>
+                                <div class="mt-4 bg-white p-4 rounded-lg shadow-md border border-slate-200 w-64">
+                                    <h3 class="font-semibold text-slate-800">Get Instructions</h3>
+                                    <p class="text-sm text-slate-500">Receive the next steps directly in your inbox.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex flex-col items-center text-center">
+                                <div class="bg-amber-500 text-white h-12 w-12 rounded-full flex items-center justify-center font-bold text-xl z-10">3</div>
+                                <div class="mt-4 bg-white p-4 rounded-lg shadow-md border border-slate-200 w-64">
+                                    <h3 class="font-semibold text-slate-800">Build Your Future</h3>
+                                    <p class="text-sm text-slate-500">Follow the guide to create your own income system.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="mt-16 md:mt-24 py-10">
+            <div class="bg-slate-900 text-white rounded-2xl p-8 md:p-12 text-center">
+                <h2 class="text-2xl md:text-3xl font-bold">Your Journey To Automated Income Begins Now.</h2>
+                <p class="mt-4 max-w-xl mx-auto text-slate-300">Take the first step toward a new way of earning by sending an email with the word <strong class="text-amber-400">"training"</strong> to:</p>
+                <a href="mailto:training@olaolu.com?subject=Training" class="mt-6 inline-block bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105">
+                    training@olaolu.com
+                </a>
+                <p class="mt-3 text-xs text-slate-500">Best regards from OS 😇💝🙏🏽</p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
